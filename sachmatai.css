@@ -69,3 +69,14 @@
 .lenta .juoda {
 	background: rgb(155, 151, 151);
 }
+
+.lenta:hover {
+	background-color: rgb(214, 210, 210);
+}
+
+.lenta .balta:hover {
+	background: rgb(178, 130, 130);
+}
+.lenta .juoda:hover {
+	background: rgb(178, 130, 130);
+}
