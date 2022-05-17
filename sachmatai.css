@@ -1,0 +1,71 @@
+.lenta {
+	border-spacing: 0;
+	text-align: center;
+	transition: background-color 0.2s ease-out;
+}
+.lenta th:nth-last-child(-n + 1) {
+	border-right: 4px double #000;
+	border-left: 1px solid #000;
+}
+
+.lenta .number {
+	padding: 6px;
+	width: 15px;
+	margin: 0 auto;
+	text-align: center;
+	border-right: 1px solid #000;
+	border-left: 4px double #000;
+}
+
+.lenta .abc th {
+	padding: 6px;
+	width: 15px;
+	margin: 0 auto;
+	text-align: center;
+	border-top: 4px double #000;
+	border-bottom: 1px solid #000;
+}
+
+.lenta .abc-2 th {
+	padding: 6px;
+	width: 15px;
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid #000;
+	border-bottom: 4px double #000;
+}
+
+#tuscias {
+	border-left: none;
+	border-top: none;
+}
+
+#tuscias-TR {
+	border-left: 4px double black;
+	border-bottom: none;
+}
+
+#tuscias-TL {
+	border-left: none;
+	border-bottom: none;
+}
+
+#tuscias-BR {
+	border-left: 4px double black;
+	border-top: none;
+}
+
+.lenta td {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	font-size: 40px;
+	line-height: 0;
+	padding: 3px;
+}
+.lenta .balta {
+	background: white;
+}
+.lenta .juoda {
+	background: rgb(155, 151, 151);
+}
